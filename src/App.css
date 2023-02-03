@@ -431,6 +431,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+.proj-link {
+  position: relative;
+  text-align: center;
+  z-index: 3;
+  color:rgba(74, 47, 189, 0.5);
+}
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -446,7 +452,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;

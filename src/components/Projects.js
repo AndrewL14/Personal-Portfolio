@@ -14,6 +14,7 @@ export const Projects = () => {
       title: "Personal Portfolio",
       description: "Design & Front-end Development",
       imgUrl: projImg1,
+      link: "https://github.com/AndrewL14/Personal-Portfolio"
     },
     {
       title: "Family Cookbook",
@@ -29,16 +30,19 @@ export const Projects = () => {
       title: "Kindle Publishing service (Contributed)",
       description: "Back-end Development",
       imgUrl: projImg1,
+      link: "https://github.com/BloomTechBackend/bd-kindle-publishing-service-AndrewL14/tree/trial-1"
     },
     {
       title: "Library Service (Contributed)",
       description: "Back-end Development",
       imgUrl: projImg2,
+      link: "https://github.com/BloomTechBackend/bd-sprint-12-challenge-libraryservice-TheProgrammer18/tree/Sprint_12"
     },
     {
       title: "Music Playlist Service (Contributed)",
       description: "Back-end Development",
       imgUrl: projImg3,
+      link: "https://github.com/BloomTechBackend/bd-working-with-databases-music-playlist-service-TheProgrammer18/tree/trial-1"
     },
   ];
 
@@ -79,7 +83,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Nothing here.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
