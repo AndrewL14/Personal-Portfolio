@@ -437,6 +437,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 3;
   color:rgba(74, 47, 189, 0.5);
 }
+.proj-link-img {
+  position: relative;
+  z-index: 3;
+  width: 10%;
+  height: 10%;
+}
 .proj-txtx {
   position: absolute;
   text-align: center;
